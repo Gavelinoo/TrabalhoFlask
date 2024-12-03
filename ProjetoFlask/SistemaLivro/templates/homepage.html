@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Sistema biblioteca
+    </title>
+</head>
+<body>
+<h1>Olá, {{ usuario }} Bem Vindo ao Sistema da Biblioteca </h1>
+
+<a href="{{ url_for ('reservar') }}">Reservar Livros</a> // <!-- Referencia a url da rota -->
+<a href="{{ url_for ('devolver') }}">Devolver Livros</a>
+
+<h2>{{ usuario }} permite python no html</h2>
+<h2>{{ idade }}  variavel idade </h2>
+
+</body>
+</html>

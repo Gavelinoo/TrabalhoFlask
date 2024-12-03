@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Biblioteca</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Devolver Livro</h2>
+      <form id="devolverForm">
+        <label for="devolverLivroId">ID do Livro:</label>
+        <input type="text" id="devolverLivroId" placeholder="Ex: 1234" required>
+
+        <button type="submit">Devolver</button>
+      </form>
+    </section>
+
+    <section id="response">
+      <h2>Resposta da API</h2>
+      <p id="responseMessage">Nenhuma interação ainda.</p>
+    </section>
+  </main>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>
